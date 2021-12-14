@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 216953900,
+              "duration": 295102601,
               "status": "passed"
             },
             "line": 4,
@@ -27,7 +27,7 @@
         "before": [
           {
             "result": {
-              "duration": 3571180399,
+              "duration": 4834098000,
               "status": "passed"
             },
             "match": {
@@ -42,7 +42,7 @@
         "after": [
           {
             "result": {
-              "duration": 613354800,
+              "duration": 681573800,
               "status": "passed"
             },
             "match": {
@@ -55,7 +55,7 @@
         "steps": [
           {
             "result": {
-              "duration": 55347001,
+              "duration": 93125200,
               "status": "passed"
             },
             "line": 8,
@@ -76,7 +76,7 @@
           },
           {
             "result": {
-              "duration": 93303100,
+              "duration": 196534100,
               "status": "passed"
             },
             "line": 9,
@@ -97,7 +97,7 @@
           },
           {
             "result": {
-              "duration": 90834200,
+              "duration": 66871100,
               "status": "passed"
             },
             "line": 10,
@@ -118,7 +118,7 @@
           },
           {
             "result": {
-              "duration": 272604000,
+              "duration": 356987799,
               "status": "passed"
             },
             "line": 11,
@@ -130,7 +130,7 @@
           },
           {
             "result": {
-              "duration": 166266299,
+              "duration": 209170700,
               "status": "passed"
             },
             "line": 12,
@@ -151,7 +151,7 @@
           },
           {
             "result": {
-              "duration": 51494700,
+              "duration": 81821199,
               "status": "passed"
             },
             "line": 13,
@@ -172,7 +172,7 @@
           },
           {
             "result": {
-              "duration": 30949300,
+              "duration": 38139400,
               "status": "passed"
             },
             "line": 14,
@@ -193,7 +193,7 @@
           },
           {
             "result": {
-              "duration": 44004899,
+              "duration": 71116100,
               "status": "passed"
             },
             "line": 15,
@@ -214,7 +214,7 @@
           },
           {
             "result": {
-              "duration": 52534901,
+              "duration": 79832099,
               "status": "passed"
             },
             "line": 16,
@@ -226,7 +226,7 @@
           },
           {
             "result": {
-              "duration": 7955749301,
+              "duration": 3542383000,
               "status": "passed"
             },
             "line": 17,
@@ -235,6 +235,257 @@
               "arguments": [
                 {
                   "val": "Permanent Software Tester jobs in Crawley",
+                  "offset": 21
+                }
+              ],
+              "location": "JobSearchTestSteps.iVerifyTheResult(String)"
+            },
+            "matchedColumns": [
+              7
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 6,
+            "name": "@Regression"
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "I am on homepage",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 192499500,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I accept cookies",
+            "match": {
+              "location": "JobSearchTestSteps.iAcceptCookies()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5588312200,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Verify user should be ablt to search job successfully",
+        "description": "",
+        "id": "job-search-test;verify-user-should-be-ablt-to-search-job-successfully;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 666844700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 65159700,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter \"Software Automation Tester\" in job title field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Software Automation Tester",
+                  "offset": 9
+                }
+              ],
+              "location": "JobSearchTestSteps.iEnterInJobTitleField(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 205240900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter \"Harrow\" in location field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Harrow",
+                  "offset": 9
+                }
+              ],
+              "location": "JobSearchTestSteps.iEnterInLocationField(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 32432700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I select \"up to 15 miles\" in the distance field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "up to 15 miles",
+                  "offset": 10
+                }
+              ],
+              "location": "JobSearchTestSteps.iSelectInTheDistanceField(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 120215900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I click on the More Search Option Link",
+            "match": {
+              "location": "JobSearchTestSteps.iClickOnTheMoreSearchOptionLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 172867100,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I enter \"30000\" data in the minimum salary field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "30000",
+                  "offset": 9
+                }
+              ],
+              "location": "JobSearchTestSteps.iEnterDataInTheMinimumSalaryField(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58843800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I enter \"60000\" data in the maximum salary field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "60000",
+                  "offset": 9
+                }
+              ],
+              "location": "JobSearchTestSteps.iEnterDataInTheMaximumSalaryField(String)"
+            },
+            "matchedColumns": [
+              4
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50183199,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "I select the \"Per annum\" salary type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Per annum",
+                  "offset": 14
+                }
+              ],
+              "location": "JobSearchTestSteps.iSelectTheSalaryType(String)"
+            },
+            "matchedColumns": [
+              5
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 105961400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "I select the \"Contract\" job type",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contract",
+                  "offset": 14
+                }
+              ],
+              "location": "JobSearchTestSteps.iSelectTheJobType(String)"
+            },
+            "matchedColumns": [
+              6
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63435400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "I click on the Find Jobs Button",
+            "match": {
+              "location": "JobSearchTestSteps.iClickOnTheFindJobsButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11377941301,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "I verify the Result \"Contract Software Automation Tester jobs in Harrow on the Hill\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Contract Software Automation Tester jobs in Harrow on the Hill",
                   "offset": 21
                 }
               ],

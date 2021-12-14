@@ -103,12 +103,26 @@ formatter.examples({
       ],
       "line": 21,
       "id": "job-search-test;verify-user-should-be-ablt-to-search-job-successfully;;2"
+    },
+    {
+      "cells": [
+        "Software Automation Tester",
+        "Harrow",
+        "up to 15 miles",
+        "30000",
+        "60000",
+        "Per annum",
+        "Contract",
+        "Contract Software Automation Tester jobs in Harrow on the Hill"
+      ],
+      "line": 22,
+      "id": "job-search-test;verify-user-should-be-ablt-to-search-job-successfully;;3"
     }
   ],
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 3571180399,
+  "duration": 4834098000,
   "status": "passed"
 });
 formatter.background({
@@ -127,7 +141,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iAcceptCookies()"
 });
 formatter.result({
-  "duration": 216953900,
+  "duration": 295102601,
   "status": "passed"
 });
 formatter.scenario({
@@ -228,7 +242,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterInJobTitleField(String)"
 });
 formatter.result({
-  "duration": 55347001,
+  "duration": 93125200,
   "status": "passed"
 });
 formatter.match({
@@ -241,7 +255,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterInLocationField(String)"
 });
 formatter.result({
-  "duration": 93303100,
+  "duration": 196534100,
   "status": "passed"
 });
 formatter.match({
@@ -254,14 +268,14 @@ formatter.match({
   "location": "JobSearchTestSteps.iSelectInTheDistanceField(String)"
 });
 formatter.result({
-  "duration": 90834200,
+  "duration": 66871100,
   "status": "passed"
 });
 formatter.match({
   "location": "JobSearchTestSteps.iClickOnTheMoreSearchOptionLink()"
 });
 formatter.result({
-  "duration": 272604000,
+  "duration": 356987799,
   "status": "passed"
 });
 formatter.match({
@@ -274,7 +288,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterDataInTheMinimumSalaryField(String)"
 });
 formatter.result({
-  "duration": 166266299,
+  "duration": 209170700,
   "status": "passed"
 });
 formatter.match({
@@ -287,7 +301,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iEnterDataInTheMaximumSalaryField(String)"
 });
 formatter.result({
-  "duration": 51494700,
+  "duration": 81821199,
   "status": "passed"
 });
 formatter.match({
@@ -300,7 +314,7 @@ formatter.match({
   "location": "JobSearchTestSteps.iSelectTheSalaryType(String)"
 });
 formatter.result({
-  "duration": 30949300,
+  "duration": 38139400,
   "status": "passed"
 });
 formatter.match({
@@ -313,14 +327,14 @@ formatter.match({
   "location": "JobSearchTestSteps.iSelectTheJobType(String)"
 });
 formatter.result({
-  "duration": 44004899,
+  "duration": 71116100,
   "status": "passed"
 });
 formatter.match({
   "location": "JobSearchTestSteps.iClickOnTheFindJobsButton()"
 });
 formatter.result({
-  "duration": 52534901,
+  "duration": 79832099,
   "status": "passed"
 });
 formatter.match({
@@ -333,11 +347,244 @@ formatter.match({
   "location": "JobSearchTestSteps.iVerifyTheResult(String)"
 });
 formatter.result({
-  "duration": 7955749301,
+  "duration": 3542383000,
   "status": "passed"
 });
 formatter.after({
-  "duration": 613354800,
+  "duration": 681573800,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 5588312200,
+  "status": "passed"
+});
+formatter.background({
+  "line": 3,
+  "name": "I am on homepage",
+  "description": "",
+  "type": "background",
+  "keyword": "Background"
+});
+formatter.step({
+  "line": 4,
+  "name": "I accept cookies",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "JobSearchTestSteps.iAcceptCookies()"
+});
+formatter.result({
+  "duration": 192499500,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 22,
+  "name": "Verify user should be ablt to search job successfully",
+  "description": "",
+  "id": "job-search-test;verify-user-should-be-ablt-to-search-job-successfully;;3",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 6,
+      "name": "@Regression"
+    }
+  ]
+});
+formatter.step({
+  "line": 8,
+  "name": "I enter \"Software Automation Tester\" in job title field",
+  "matchedColumns": [
+    0
+  ],
+  "keyword": "When "
+});
+formatter.step({
+  "line": 9,
+  "name": "I enter \"Harrow\" in location field",
+  "matchedColumns": [
+    1
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 10,
+  "name": "I select \"up to 15 miles\" in the distance field",
+  "matchedColumns": [
+    2
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 11,
+  "name": "I click on the More Search Option Link",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 12,
+  "name": "I enter \"30000\" data in the minimum salary field",
+  "matchedColumns": [
+    3
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 13,
+  "name": "I enter \"60000\" data in the maximum salary field",
+  "matchedColumns": [
+    4
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 14,
+  "name": "I select the \"Per annum\" salary type",
+  "matchedColumns": [
+    5
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 15,
+  "name": "I select the \"Contract\" job type",
+  "matchedColumns": [
+    6
+  ],
+  "keyword": "And "
+});
+formatter.step({
+  "line": 16,
+  "name": "I click on the Find Jobs Button",
+  "keyword": "And "
+});
+formatter.step({
+  "line": 17,
+  "name": "I verify the Result \"Contract Software Automation Tester jobs in Harrow on the Hill\"",
+  "matchedColumns": [
+    7
+  ],
+  "keyword": "Then "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Software Automation Tester",
+      "offset": 9
+    }
+  ],
+  "location": "JobSearchTestSteps.iEnterInJobTitleField(String)"
+});
+formatter.result({
+  "duration": 65159700,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Harrow",
+      "offset": 9
+    }
+  ],
+  "location": "JobSearchTestSteps.iEnterInLocationField(String)"
+});
+formatter.result({
+  "duration": 205240900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "up to 15 miles",
+      "offset": 10
+    }
+  ],
+  "location": "JobSearchTestSteps.iSelectInTheDistanceField(String)"
+});
+formatter.result({
+  "duration": 32432700,
+  "status": "passed"
+});
+formatter.match({
+  "location": "JobSearchTestSteps.iClickOnTheMoreSearchOptionLink()"
+});
+formatter.result({
+  "duration": 120215900,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "30000",
+      "offset": 9
+    }
+  ],
+  "location": "JobSearchTestSteps.iEnterDataInTheMinimumSalaryField(String)"
+});
+formatter.result({
+  "duration": 172867100,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "60000",
+      "offset": 9
+    }
+  ],
+  "location": "JobSearchTestSteps.iEnterDataInTheMaximumSalaryField(String)"
+});
+formatter.result({
+  "duration": 58843800,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Per annum",
+      "offset": 14
+    }
+  ],
+  "location": "JobSearchTestSteps.iSelectTheSalaryType(String)"
+});
+formatter.result({
+  "duration": 50183199,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Contract",
+      "offset": 14
+    }
+  ],
+  "location": "JobSearchTestSteps.iSelectTheJobType(String)"
+});
+formatter.result({
+  "duration": 105961400,
+  "status": "passed"
+});
+formatter.match({
+  "location": "JobSearchTestSteps.iClickOnTheFindJobsButton()"
+});
+formatter.result({
+  "duration": 63435400,
+  "status": "passed"
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "Contract Software Automation Tester jobs in Harrow on the Hill",
+      "offset": 21
+    }
+  ],
+  "location": "JobSearchTestSteps.iVerifyTheResult(String)"
+});
+formatter.result({
+  "duration": 11377941301,
+  "status": "passed"
+});
+formatter.after({
+  "duration": 666844700,
   "status": "passed"
 });
 });

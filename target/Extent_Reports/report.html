@@ -53,7 +53,7 @@
 		<ul id='nav-mobile' class='right hide-on-med-and-down nav-right'>
 			<li>
                 <a href='#!'>
-                    <span class='label suite-start-time blue darken-3'>Dec 12, 2021 01:47:36 PM</span>
+                    <span class='label suite-start-time blue darken-3'>Dec 12, 2021 03:17:34 PM</span>
 				</a>
 			</li>
 			<li>
@@ -154,7 +154,7 @@
 					<canvas id='child-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>1</span> scenario(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>2</span> scenario(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> scenario(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -169,7 +169,7 @@
 					<canvas id='grandchild-analysis' width='100' height='80'></canvas>
 				</div>
 				<div class='block text-small'>
-					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>11</span> step(s) passed</span>
+					<span class='tooltipped' data-position='top' data-tooltip='100%'><span class='strong'>22</span> step(s) passed</span>
 				</div>
 				<div class='block text-small'>
 					<span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> step(s) failed, <span class='strong tooltipped' data-position='top' data-tooltip='0%'>0</span> others
@@ -189,12 +189,12 @@
 				<li class='test displayed active has-leaf pass' status='pass' bdd='true' test-id='1'>
 					<div class='test-heading'>
 						<span class='test-name'>Job Search Test</span>
-						<span class='test-time'>Dec 12, 2021 01:47:36 PM</span>
+						<span class='test-time'>Dec 12, 2021 03:17:34 PM</span>
 						<span class='test-status right pass'>pass</span>
 					</div>
 					<div class='test-content hide'>
 <div class='scenariooutline node' test-id='2' status='pass'>
-	<span class='duration right label'>0h 0m 12s+674ms</span>
+	<span class='duration right label'>0h 0m 28s+708ms</span>
 	<div class='desc'>
 		<b>ScenarioOutline</b>
 		<span class="desc-text">Verify user should be ablt to search job successfully</span>
@@ -252,6 +252,62 @@
 					</li>
 					<li test-id='14' class='node then pass' status='pass'><b>Then</b>
 						<span class="bdd-step-name">Then I verify the Result "Permanent Software Tester jobs in Crawley"</span>
+							<div class='pre'>passed</div>
+					</li>
+				</ul>
+		</li>
+		<li test-id='15' class='node scenario pass' status='pass'>
+			<div class='category-list'>
+				<span class='category label white-text'>@Regression</span>
+			</div>
+			
+			<b>Scenario</b>
+			
+			<span class="bdd-step-name">Verify user should be ablt to search job successfully</span>
+			
+				<ul class='steps'>
+					<li test-id='16' class='node then pass' status='pass'><b>Then</b>
+						<span class="bdd-step-name">Then I accept cookies</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='17' class='node when pass' status='pass'><b>When</b>
+						<span class="bdd-step-name">When I enter "Software Automation Tester" in job title field</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='18' class='node and pass' status='pass'><b>And</b>
+						<span class="bdd-step-name">And I enter "Harrow" in location field</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='19' class='node and pass' status='pass'><b>And</b>
+						<span class="bdd-step-name">And I select "up to 15 miles" in the distance field</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='20' class='node and pass' status='pass'><b>And</b>
+						<span class="bdd-step-name">And I click on the More Search Option Link</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='21' class='node and pass' status='pass'><b>And</b>
+						<span class="bdd-step-name">And I enter "30000" data in the minimum salary field</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='22' class='node and pass' status='pass'><b>And</b>
+						<span class="bdd-step-name">And I enter "60000" data in the maximum salary field</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='23' class='node and pass' status='pass'><b>And</b>
+						<span class="bdd-step-name">And I select the "Per annum" salary type</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='24' class='node and pass' status='pass'><b>And</b>
+						<span class="bdd-step-name">And I select the "Contract" job type</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='25' class='node and pass' status='pass'><b>And</b>
+						<span class="bdd-step-name">And I click on the Find Jobs Button</span>
+							<div class='pre'>passed</div>
+					</li>
+					<li test-id='26' class='node then pass' status='pass'><b>Then</b>
+						<span class="bdd-step-name">Then I verify the Result "Contract Software Automation Tester jobs in Harrow on the Hill"</span>
 							<div class='pre'>passed</div>
 					</li>
 				</ul>
@@ -314,12 +370,12 @@
 					<div class='category-heading'>
 						<span class='category-name'>@Regression</span>
 						<span class='category-status right'>
-							<span class='label pass'>1</span>
+							<span class='label pass'>2</span>
 						</span>
 					</div>
 					<div class='category-content hide'>
 						<div class='category-status-counts'>
-							<span class='label green accent-4 white-text'>Passed: 1</span>
+							<span class='label green accent-4 white-text'>Passed: 2</span>
 							
 							
 						</div>
@@ -335,8 +391,13 @@
 								</thead>
 								<tbody>
 									<tr>
-										<td>Dec 12, 2021 01:47:36 PM</td>
+										<td>Dec 12, 2021 03:17:34 PM</td>
 										<td class='linked' test-id='3'>Job Search Test.Verify user should be ablt to search job successfully.Verify user should be ablt to search job successfully</td>
+										<td><span class='test-status pass'>pass</span></td>
+									</tr>
+									<tr>
+										<td>Dec 12, 2021 03:17:44 PM</td>
+										<td class='linked' test-id='15'>Job Search Test.Verify user should be ablt to search job successfully.Verify user should be ablt to search job successfully</td>
 										<td><span class='test-status pass'>pass</span></td>
 									</tr>
 								</tbody>
@@ -384,12 +445,12 @@
                             <div class='author-heading'>
                                 <span class='author-name'>VimalVithalpura</span>
                                 <span class='author-status right'>
-                                        <span class='label pass'>1</span>
+                                        <span class='label pass'>2</span>
 						        </span>
                             </div>
                             <div class='author-content hide'>
                                 <div class='author-status-counts'>
-                                    <span class='label green accent-4 white-text'>Passed: 1</span>
+                                    <span class='label green accent-4 white-text'>Passed: 2</span>
                                     
                                     
                                 </div>
@@ -405,8 +466,13 @@
                                         </thead>
                                         <tbody>
                                             <tr>
-                                                <td>Dec 12, 2021 01:47:36 PM</td>
+                                                <td>Dec 12, 2021 03:17:34 PM</td>
                                                 <td class='linked' test-id='3'>Job Search Test.Verify user should be ablt to search job successfully.Verify user should be ablt to search job successfully</td>
+                                                <td><span class='test-status pass'>pass</span></td>
+                                            </tr>
+                                            <tr>
+                                                <td>Dec 12, 2021 03:17:44 PM</td>
+                                                <td class='linked' test-id='15'>Job Search Test.Verify user should be ablt to search job successfully.Verify user should be ablt to search job successfully</td>
                                                 <td><span class='test-status pass'>pass</span></td>
                                             </tr>
                                         </tbody>
@@ -440,31 +506,31 @@
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Scenarios
-					<div class='panel-lead'>1</div>
+					<div class='panel-lead'>2</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Steps
-					<div class='panel-lead'>11</div>
+					<div class='panel-lead'>22</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Start
-					<div class='panel-lead'>Dec 12, 2021 01:47:36 PM</div>
+					<div class='panel-lead'>Dec 12, 2021 03:17:34 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 			 		End
-			 		<div class='panel-lead'>Dec 12, 2021 01:47:49 PM</div>
+			 		<div class='panel-lead'>Dec 12, 2021 03:18:03 PM</div>
 				</div>
 			</div>
 			<div class='col s2'>
 				<div class='card-panel r'>
 					Time Taken
-					<div class='panel-lead'>13,367ms</div>
+					<div class='panel-lead'>29,513ms</div>
 				</div>
 			</div>
 			<div class='col s4'>
@@ -517,7 +583,7 @@
 						</tr>
 						<tr>
 							<td>@Regression</td>
-							<td>1</td>
+							<td>2</td>
 							<td>0</td>
 							<td>0</td>
 							<td>
@@ -545,7 +611,7 @@
 				skipParent: 0,
 				exceptionsParent: 0,
 				
-				passChild: 1,
+				passChild: 2,
 				failChild: 0,
 				fatalChild: 0,
 				errorChild: 0,
@@ -554,7 +620,7 @@
 				infoChild: 0,
 				exceptionsChild: 0,
 				
-				passGrandChild: 11,
+				passGrandChild: 22,
 				failGrandChild: 0,
 				fatalGrandChild: 0,
 				errorGrandChild: 0,

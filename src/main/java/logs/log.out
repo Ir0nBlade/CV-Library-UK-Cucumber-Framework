@@ -166,3 +166,27 @@
 2021-12-12 13:12:84 INFO  HomePage :111 - Selecting job type from dropdown: [[ChromeDriver: chrome on WINDOWS (400baf2a615af1fc0f303bbab11cd880)] -> id: tempperm]
 2021-12-12 13:12:138 INFO  HomePage :116 - Clicking on find job button: [[ChromeDriver: chrome on WINDOWS (400baf2a615af1fc0f303bbab11cd880)] -> id: hp-search-btn]
 2021-12-12 13:12:41 INFO  ResultPage :37 - Verifying Search result: [[ChromeDriver: chrome on WINDOWS (400baf2a615af1fc0f303bbab11cd880)] -> xpath: //div[@class='search-header__title']]
+2021-12-12 15:12:214 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-12 15:12:521 INFO  HomePage :70 - Accepting cookies: [[ChromeDriver: chrome on WINDOWS (1483956c62abe191dca8ea21a6355f05)] -> xpath: //button[@id='save']]
+2021-12-12 15:12:632 INFO  HomePage :75 - Entering job title: [[ChromeDriver: chrome on WINDOWS (1483956c62abe191dca8ea21a6355f05)] -> id: keywords]
+2021-12-12 15:12:831 INFO  HomePage :80 - Entering location: [[ChromeDriver: chrome on WINDOWS (1483956c62abe191dca8ea21a6355f05)] -> id: location]
+2021-12-12 15:12:897 INFO  HomePage :86 - Selecting distance from dropdown: [[ChromeDriver: chrome on WINDOWS (1483956c62abe191dca8ea21a6355f05)] -> id: distance]
+2021-12-12 15:12:262 INFO  HomePage :91 - Clicking on more search options: [[ChromeDriver: chrome on WINDOWS (1483956c62abe191dca8ea21a6355f05)] -> id: toggle-hp-search]
+2021-12-12 15:12:472 INFO  HomePage :96 - Entering minimum salary: [[ChromeDriver: chrome on WINDOWS (1483956c62abe191dca8ea21a6355f05)] -> id: salarymin]
+2021-12-12 15:12:557 INFO  HomePage :101 - Entering maximum salary: 50000
+2021-12-12 15:12:596 INFO  HomePage :106 - Selecting salary type from dropdown: [[ChromeDriver: chrome on WINDOWS (1483956c62abe191dca8ea21a6355f05)] -> id: salarytype]
+2021-12-12 15:12:667 INFO  HomePage :111 - Selecting job type from dropdown: [[ChromeDriver: chrome on WINDOWS (1483956c62abe191dca8ea21a6355f05)] -> id: tempperm]
+2021-12-12 15:12:748 INFO  HomePage :116 - Clicking on find job button: [[ChromeDriver: chrome on WINDOWS (1483956c62abe191dca8ea21a6355f05)] -> id: hp-search-btn]
+2021-12-12 15:12:167 INFO  ResultPage :32 - Verifying Search result: [[ChromeDriver: chrome on WINDOWS (1483956c62abe191dca8ea21a6355f05)] -> xpath: //div[@class='search-header__title']]
+2021-12-12 15:12:992 INFO  ManageDriver :30 - Launching Chrome Browser
+2021-12-12 15:12:762 INFO  HomePage :70 - Accepting cookies: [[ChromeDriver: chrome on WINDOWS (1f7be8c18beaa2240e11ef8f43857f67)] -> xpath: //button[@id='save']]
+2021-12-12 15:12:829 INFO  HomePage :75 - Entering job title: [[ChromeDriver: chrome on WINDOWS (1f7be8c18beaa2240e11ef8f43857f67)] -> id: keywords]
+2021-12-12 15:12:36 INFO  HomePage :80 - Entering location: [[ChromeDriver: chrome on WINDOWS (1f7be8c18beaa2240e11ef8f43857f67)] -> id: location]
+2021-12-12 15:12:70 INFO  HomePage :86 - Selecting distance from dropdown: [[ChromeDriver: chrome on WINDOWS (1f7be8c18beaa2240e11ef8f43857f67)] -> id: distance]
+2021-12-12 15:12:191 INFO  HomePage :91 - Clicking on more search options: [[ChromeDriver: chrome on WINDOWS (1f7be8c18beaa2240e11ef8f43857f67)] -> id: toggle-hp-search]
+2021-12-12 15:12:366 INFO  HomePage :96 - Entering minimum salary: [[ChromeDriver: chrome on WINDOWS (1f7be8c18beaa2240e11ef8f43857f67)] -> id: salarymin]
+2021-12-12 15:12:425 INFO  HomePage :101 - Entering maximum salary: 60000
+2021-12-12 15:12:479 INFO  HomePage :106 - Selecting salary type from dropdown: [[ChromeDriver: chrome on WINDOWS (1f7be8c18beaa2240e11ef8f43857f67)] -> id: salarytype]
+2021-12-12 15:12:585 INFO  HomePage :111 - Selecting job type from dropdown: [[ChromeDriver: chrome on WINDOWS (1f7be8c18beaa2240e11ef8f43857f67)] -> id: tempperm]
+2021-12-12 15:12:652 INFO  HomePage :116 - Clicking on find job button: [[ChromeDriver: chrome on WINDOWS (1f7be8c18beaa2240e11ef8f43857f67)] -> id: hp-search-btn]
+2021-12-12 15:12:09 INFO  ResultPage :32 - Verifying Search result: [[ChromeDriver: chrome on WINDOWS (1f7be8c18beaa2240e11ef8f43857f67)] -> xpath: //div[@class='search-header__title']]
